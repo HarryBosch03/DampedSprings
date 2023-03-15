@@ -14,12 +14,20 @@ namespace BoschingMachine
         public Vector3 PositionV { get; set; }
         public Vector3 VelocityV { get; set; }
 
-        public float PositionF => PositionV.x;
-        public float VelocityF => PositionV.x;
+        public float PositionF
+        {
+            get => PositionV.x;
+            set => PositionV = new Vector3(value, 0.0f, 0.0f);
+        }
+        public float VelocityF
+        {
+            get => VelocityV.x;
+            set => VelocityV = new Vector3(value, 0.0f, 0.0f);
+        }
         
         public ProcessOperation Operation { get; set; } = DampedSpring.ProcessLinear;
 
-        public DampedSpring() : this(1.0f, 0.5f, 2.0f) { }
+        public DampedSpring() : this(2.0f, 0.8f, 0.0f) { }
         public DampedSpring(float f, float z, float r) : this(Vector3.zero, f, z, r) { }
         public DampedSpring(Vector3 lastTarget, float f, float z, float r)
         {
