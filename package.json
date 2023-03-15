@@ -1,0 +1,12 @@
+{
+    "name": "bm_damped_springs",
+    "version": "1.0.0",
+    "displayName": "BoschingMachine Presents Damped Springs!",
+    "description": "Multipurpose Damped Spring Utility.",
+    "author": 
+    {
+        "name": "Harry Bosch",
+        "email": "harrybosch03@gmail.com",
+        "url": "https://github.com/HarryBosch03"
+    }
+}

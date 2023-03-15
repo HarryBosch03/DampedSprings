@@ -1,0 +1,18 @@
+{
+    "name": "SpringDamperEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d58a34922b12f804db00f2db45f096d1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
